@@ -1,6 +1,7 @@
 # cloudflare
 Scrape websites that use CloudFlare DDoS protection
 
+Node.js is needed to run the JavaScript to solve the CloudFlare challenge 
 
 functional example using Guzzle
 
