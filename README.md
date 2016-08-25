@@ -4,6 +4,11 @@ Scrape websites that use CloudFlare DDoS protection
 
 functional example using Guzzle
 
+````php
+$browser = new Browser("http://example.com", "example.com");
+$browser->getPage('/about');
+````
+---
 ````PHP
 <?php
 
