@@ -33,7 +33,7 @@ class CloudFlare {
         if (!empty($body)) {
             $this->addBody($body);
         }
-        return (preg_match('/\<title\>Please wait 5 seconds\.\.\.\<\/title\>/', $this->body_one_line));
+        return (preg_match('/5 seconds/', $this->body_one_line));
     }
     
     public function addBody($body) {
